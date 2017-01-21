@@ -39,6 +39,8 @@
 		CED2FBD11E31285500B300EA /* DriverMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2FBD01E31285500B300EA /* DriverMenuViewController.swift */; };
 		CED2FBD31E31366A00B300EA /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2FBD21E31366A00B300EA /* DeliveryViewController.swift */; };
 		CED2FBD51E32E8DD00B300EA /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2FBD41E32E8DD00B300EA /* StatisticViewController.swift */; };
+		CED2FBD71E330E9000B300EA /* DriverOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2FBD61E330E9000B300EA /* DriverOrder.swift */; };
+		CED2FBD91E330F4B00B300EA /* DriverOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2FBD81E330F4B00B300EA /* DriverOrderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		CED2FBD01E31285500B300EA /* DriverMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverMenuViewController.swift; sourceTree = "<group>"; };
 		CED2FBD21E31366A00B300EA /* DeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
 		CED2FBD41E32E8DD00B300EA /* StatisticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		CED2FBD61E330E9000B300EA /* DriverOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverOrder.swift; sourceTree = "<group>"; };
+		CED2FBD81E330F4B00B300EA /* DriverOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverOrderCell.swift; sourceTree = "<group>"; };
 		F7CC732578B934099D2F9B22 /* Pods-FoodTaskerMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTaskerMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTaskerMobile/Pods-FoodTaskerMobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,6 +233,7 @@
 		CED2FBCC1E31280C00B300EA /* Driver */ = {
 			isa = PBXGroup;
 			children = (
+				CED2FBD81E330F4B00B300EA /* DriverOrderCell.swift */,
 			);
 			name = Driver;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 		CED2FBCE1E31282800B300EA /* Driver */ = {
 			isa = PBXGroup;
 			children = (
+				CED2FBD61E330E9000B300EA /* DriverOrder.swift */,
 			);
 			name = Driver;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED2FBD91E330F4B00B300EA /* DriverOrderCell.swift in Sources */,
 				CE7F8FB11E291F2B0059F2B7 /* User.swift in Sources */,
 				CED2FBC71E2F02B600B300EA /* OrderViewCell.swift in Sources */,
 				CED2FBC11E2DA9D800B300EA /* TrayViewCell.swift in Sources */,
@@ -418,6 +425,7 @@
 				CED2FBD31E31366A00B300EA /* DeliveryViewController.swift in Sources */,
 				CE0D04851E27FE9F00D6D75D /* PaymentViewController.swift in Sources */,
 				CE0D04751E2434A200D6D75D /* SWRevealViewController.m in Sources */,
+				CED2FBD71E330E9000B300EA /* DriverOrder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

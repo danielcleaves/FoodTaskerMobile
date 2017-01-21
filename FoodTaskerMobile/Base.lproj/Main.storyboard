@@ -41,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DriverOrdersCell" id="YbC-wc-3O5">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DriverOrdersCell" id="YbC-wc-3O5" customClass="DriverOrderCell" customModule="FoodTaskerMobile" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="122"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YbC-wc-3O5" id="bv4-jC-hrL">
@@ -112,6 +112,12 @@
                                         <constraint firstItem="Ngy-S7-MUa" firstAttribute="top" secondItem="bv4-jC-hrL" secondAttribute="top" constant="8" id="vy0-qO-4Ux"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imgCustomerAvatar" destination="Rfc-Dr-aS9" id="hqg-mu-OIn"/>
+                                    <outlet property="lbCustomerAddress" destination="VCU-Oy-aZK" id="S8z-yu-aJg"/>
+                                    <outlet property="lbCustomerName" destination="MHg-z4-J5S" id="z0I-3R-GBn"/>
+                                    <outlet property="lbRestaurant" destination="OzI-DT-i8X" id="OUR-uA-mO7"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -124,6 +130,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="menuBarButton" destination="xCF-VL-vap" id="Up7-1S-0wc"/>
+                        <segue destination="VXt-xT-XPK" kind="show" identifier="CurrentDelivery" id="0i2-u7-bM0"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfL-Kl-9Mg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1672,9 +1679,10 @@
         <image name="splash_screen" width="185" height="110"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dme-Ls-tUZ"/>
         <segue reference="okd-DX-LWc"/>
         <segue reference="YTP-aH-ESU"/>
+        <segue reference="0i2-u7-bM0"/>
+        <segue reference="dme-Ls-tUZ"/>
         <segue reference="GbT-e5-HiV"/>
         <segue reference="AEL-Gy-PUh"/>
     </inferredMetricsTieBreakers>

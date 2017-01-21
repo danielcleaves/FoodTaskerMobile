@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "01CCB6BA7E35B39CBDCB9EBB354C05062E3D2F40",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01CCB6BA7E35B39CBDCB9EBB354C05062E3D2F40" : 9223372036854775807,
+    "141B0C2A3F5EEA09696F4402D215D04E586A2096" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF994990-1987-484E-A4E8-8DE885F967BB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01CCB6BA7E35B39CBDCB9EBB354C05062E3D2F40" : "FoodTaskerMobile\/",
+    "141B0C2A3F5EEA09696F4402D215D04E586A2096" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FoodTaskerMobile",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FoodTaskerMobile.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielcleaves\/FoodTaskerMobile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01CCB6BA7E35B39CBDCB9EBB354C05062E3D2F40"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielcleaves\/Debugging_IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "141B0C2A3F5EEA09696F4402D215D04E586A2096"
+    }
+  ]
+}
