@@ -34,6 +34,7 @@ class TrayViewController: UIViewController {
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
         if Tray.currentTray.items.count == 0 {
+            
             // Show a message here
             let lbEmptyTray = UILabel(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 40))
             lbEmptyTray.center = self.view.center
